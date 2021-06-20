@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+require('dotenv').config();
 import Web3 from "web3";
 import { STOCK_ORACLE_ABI, STOCK_ORACLE_ADDRESS } from './quoteContract';
 

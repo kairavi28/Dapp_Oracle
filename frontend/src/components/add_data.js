@@ -1,4 +1,5 @@
 import axios from 'axios';
+require('dotenv').config();
 import React, { useEffect, useState } from 'react';
 import Web3 from "web3";
 import { STOCK_ORACLE_ABI, STOCK_ORACLE_ADDRESS } from './quoteContract';
