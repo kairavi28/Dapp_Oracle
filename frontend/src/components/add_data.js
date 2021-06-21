@@ -53,8 +53,8 @@ const Add_data = () => {
             }            
             await obj.methods.setStocks(
                 web3.utils.fromAscii(addsym),
-                web3.utils.toBN(parseInt(quote['01. price'])), 
-                web3.utils.toBN(quote['02. volume'])
+                web3.utils.toBN(parseInt(quote['05. price'])), 
+                web3.utils.toBN(quote['06. volume'])
             ).send({from: accounts[0]});
         })
     }
